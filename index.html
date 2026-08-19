@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/fav-icon/logo.jpeg">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Thosara<span>.ME</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <p class="greeting">Hi, my name is</p>
+            <h1 class="name">Thosara Karunathilaka.</h1>
+            <h2 class="title">I build <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+            <p class="summary">
+                A passionate software engineer specializing in building (and occasionally designing) exceptional digital
+                experiences. Currently focused on building accessible, human-centered products.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn primary">Check out my work</a>
+                <a href="#contact" class="btn secondary">Get in touch</a>
+            </div>
+
+            <div class="social-links-hero">
+                <a href="https://github.com/thosara-karunathilaka" aria-label="GitHub" target="_blank"
+                    rel="noopener noreferrer"><i class="ph ph-github-logo"></i></a>
+                <a href="https://www.linkedin.com/in/thosara-karunathilaka/" aria-label="LinkedIn" target="_blank"
+                    rel="noopener noreferrer"><i class="ph ph-linkedin-logo"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61582413880343" aria-label="Facebook" target="_blank"
+                    rel="noopener noreferrer"><i class="ph ph-facebook-logo"></i></a>
+                <a href="https://www.instagram.com/itz_thosara/" aria-label="Instagram" target="_blank"
+                    rel="noopener noreferrer"><i class="ph ph-instagram-logo"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-visual reveal-right">
+            <div class="blob-wrapper">
+                <div class="blob"></div>
+                <!-- You can generate an image and replace the src here, for now it's a glassmorphism placeholder -->
+                <div class="profile-img-placeholder">
+                    <i class="ph-fill ph-code"></i>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-down">
+            <i class="ph ph-mouse scroll-icon"></i>
+            <span>Scroll</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-content reveal">
+            <div class="about-text">
+                <p>Hello! My name is Thosara and I enjoy creating things that live on the internet. My interest in web
+                    development started back in 2018 when I decided to try editing custom Tumblr themes — turns out
+                    hacking together HTML & CSS taught me a lot about HTML & CSS!</p>
+                <p>Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, a
+                    huge corporation, and a student-led design studio. My main focus these days is building accessible,
+                    inclusive products and digital experiences.</p>
+                <p>When I'm not at the computer, I'm usually hanging out with my friends, reading, or working out.</p>
+            </div>
+            <div class="about-stats glass-panel">
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Years of<br>Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Projects<br>Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Happy<br>Clients</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section-padding">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="education-container reveal">
+            <!-- Undergraduate -->
+            <div class="education-card glass-card">
+                <div class="education-logo">
+                    <img src="assets/sliit.png" alt="SLIIT Logo"
+                        onerror="this.src='https://logo.clearbit.com/sliit.lk'; this.onerror=null;">
+                </div>
+                <div class="education-info">
+                    <h3 class="degree">Undergraduate</h3>
+                    <h4 class="institution">Sri Lanka Institute of Information Technology (SLIIT)</h4>
+                    <p class="duration">2025 - Present</p>
+                    <p class="description">Currently pursuing my undergraduate degree, focusing on software engineering
+                        and modern digital experiences.</p>
+                </div>
+            </div>
+
+            <!-- High School -->
+            <div class="education-card glass-card">
+                <div class="education-logo">
+                    <img src="assets/bcg.png" alt="Bandaranayaka College Gampaha Logo"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="fallback-icon"
+                        style="display: none; width: 100%; height: 100%; justify-content: center; align-items: center; font-size: 3.5rem; color: var(--accent-primary);">
+                        <i class="ph-fill ph-student"></i>
+                    </div>
+                </div>
+                <div class="education-info">
+                    <h3 class="degree">High School</h3>
+                    <h4 class="institution">Bandaranayaka College Gampaha</h4>
+                    <p class="duration">Completed | 2016 - 2024</p>
+                    <p class="description">Completed secondary education, developing a strong foundation in Technology and ICT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding bg-alt">
+        <div style="text-align: center; width: 100%;">
+            <h2 class="section-title reveal center-title">Technical Toolbox</h2>
+        </div>
+        <div class="skills-container reveal">
+            <!-- Frontend -->
+            <div class="skill-category glass-card">
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li><i class="ph-fill ph-check-circle"></i> JavaScript (ES6+)</li>
+                    <li><i class="ph-fill ph-check-circle"></i> TypeScript</li>
+                    <li><i class="ph-fill ph-check-circle"></i> React / Next.js</li>
+                    <li><i class="ph-fill ph-check-circle"></i> Vue.js</li>
+                    <li><i class="ph-fill ph-check-circle"></i> HTML5 & CSS3/SASS</li>
+                    <li><i class="ph-fill ph-check-circle"></i> Tailwind CSS</li>
+                </ul>
+            </div>
+            <!-- Backend -->
+            <div class="skill-category glass-card">
+                <h3>Backend</h3>
+                <ul class="skill-list">
+                    <li><i class="ph-fill ph-check-circle"></i> Node.js & Express</li>
+                    <li><i class="ph-fill ph-check-circle"></i> Python (Django/Flask)</li>
+                    <li><i class="ph-fill ph-check-circle"></i> Java (Spring Boot)</li>
+                    <li><i class="ph-fill ph-check-circle"></i> PHP & Laravel</li>
+                    <li><i class="ph-fill ph-check-circle"></i> RESTful APIs & GraphQL</li>
+                </ul>
+            </div>
+            <!-- Database & Cloud -->
+            <div class="skill-category glass-card">
+                <h3>Database / DevOps</h3>
+                <ul class="skill-list">
+                    <li><i class="ph-fill ph-check-circle"></i> PostgreSQL & MySQL</li>
+                    <li><i class="ph-fill ph-check-circle"></i> MongoDB</li>
+                    <li><i class="ph-fill ph-check-circle"></i> AWS / Google Cloud</li>
+                    <li><i class="ph-fill ph-check-circle"></i> Docker & Kubernetes</li>
+                    <li><i class="ph-fill ph-check-circle"></i> CI/CD Pipelines</li>
+                    <li><i class="ph-fill ph-check-circle"></i> Git & GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <h2 class="section-title reveal">Some Things I've Built</h2>
+        <div class="project-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card reveal glass-card">
+                <div class="project-img">
+                    <img src="assets/Works/Roshan Lanka Tours.png" alt="Roshan Lanka Tours website screenshot"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="project-links">
+                        <a href="https://roshanlankatours.com/" aria-label="Live Demo Link" target="_blank"
+                            rel="noopener noreferrer"><i class="ph ph-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <p class="project-featured">Featured Project</p>
+                    <h3 class="project-title">Roshan Lanka Tours</h3>
+                    <p class="project-desc">A complete travel agency platform built for Roshan Lanka Tours in Sri Lanka.
+                        It features comprehensive tour packages, an easy booking system, and a stunning design to
+                        showcase the beauty of the island.</p>
+                    <ul class="project-tech">
+                        <li>WordPress</li>
+                        <li>Elementor</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card reveal glass-card">
+                <div class="project-img">
+                    <img src="assets/Works/afk macro sot.png" alt="Afk macro sot screenshot"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="project-links">
+                        <a href="https://github.com/thosara-karunathilaka/AFK-macro-v2-advance.git"
+                            aria-label="Live Demo Link" target="_blank" rel="noopener noreferrer"><i
+                                class="ph ph-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <p class="project-featured">Featured Project</p>
+                    <h3 class="project-title">AFK Macro V2 </h3>
+                    <p class="project-desc">A simple AFK macro made by Thosiya for Sea of Thieves.
+                        This macro helps prevent inactivity kick while you are away from the keyboard.</p>
+                    <ul class="project-tech">
+                        <li>AutoHotKey</li>
+                        <li>Customize Macros for different tasks</li>
+                    </ul>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding bg-alt">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-content reveal">
+            <div class="contact-info">
+                <h3>Let's talk about your next project</h3>
+                <p>I'm currently looking for new opportunities. Whether you have a question, a project idea, or just
+                    want to say hi, I'll try my best to get back to you!</p>
+
+                <div class="contact-methods">
+                    <div class="method">
+                        <div class="method-icon"><i class="ph ph-envelope-simple"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>thosaryethmal300@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="method">
+                        <div class="method-icon"><i class="ph ph-map-pin"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Attanagalla Sri Lanka</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form glass-card" action="#" method="POST" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Thosara Karunathilaka">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="thosara@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Hello there..."></textarea>
+                </div>
+                <button type="submit" class="btn primary full-width">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="#home" class="logo">Thosara<span>.ME</span></a>
+            <div class="social-links">
+                <a href="https://github.com/thosara-karunathilaka" aria-label="GitHub" target="_blank"
+                    rel="noopener noreferrer"><i class="ph ph-github-logo"></i></a>
+                <a href="https://www.linkedin.com/in/thosara-karunathilaka/" aria-label="LinkedIn" target="_blank"
+                    rel="noopener noreferrer"><i class="ph ph-linkedin-logo"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61582413880343" aria-label="Facebook" target="_blank"
+                    rel="noopener noreferrer"><i class="ph ph-facebook-logo"></i></a>
+                <a href="https://www.instagram.com/itz_thosara/" aria-label="Instagram" target="_blank"
+                    rel="noopener noreferrer"><i class="ph ph-instagram-logo"></i></a>
+                <a href="https://discord.gg/SDA4xZrRT" aria-label="discord" target="_blank"
+                    rel="noopener noreferrer"><i class="ph ph-discord-logo"></i></a>
+            </div>
+            <p class="copyright">Designed & Built by Thosara Karunathilaka &copy; 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
